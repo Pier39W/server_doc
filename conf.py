@@ -47,7 +47,8 @@ source_parsers = {
 
 pygments_style = 'sphinx'
 html_theme = "sphinx_rtd_theme"
-
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+htmlhelp_basename = 'serverdoc'
 source_suffix = ['.rst', '.md']
 #source_suffix = '.rst'
 
