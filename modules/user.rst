@@ -21,7 +21,7 @@ Register
     covered by access rules, for example by using @PreAuthorize from
     JMSSecurityExtraBundle_.
 
-.. code-block :: java
+.. code-block ::
 
 public class Test {}
 
