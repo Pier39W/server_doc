@@ -39,10 +39,14 @@ templates_path = ['_templates']
 #
 
 from recommonmark.parser import CommonMarkParser
+import sphinx_rtd_theme
 
 source_parsers = {
     '.md': CommonMarkParser,
 }
+
+pygments_style = 'sphinx'
+html_theme = "sphinx_rtd_theme"
 
 source_suffix = ['.rst', '.md']
 #source_suffix = '.rst'
