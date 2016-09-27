@@ -3,14 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Moxtra Server API Specification's documentation!
+Server API Specification
 ===========================================================
 
-Contents:
+Introduction:
+-------------
+This document describe server APIs request/response json format.
 
+Documentation:
+-------------
 .. toctree::
-   :maxdepth: 2
-   :caption: Server APIs
+   :maxdepth: 3
 
    getstarted
    modules/user
